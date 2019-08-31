@@ -1,0 +1,18 @@
+name: KingMountain
+version: 1.0
+main: ru.kdev.kingmountain.KingMountain
+description: KingMountain plugin.
+author: KostyanDeveloper
+
+commands:
+  kingmountain:
+    description: main command
+    aliases: [km]
+  gomp:
+    description: go to kingmountain mp
+
+permissions:
+  kingmountain.admin:
+    default: op
+  kingmountain.gomp:
+    default: op
